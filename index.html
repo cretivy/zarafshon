@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internati (Zarafshon IMI) — Rasmiy Veb-Sayt</title>
+  <meta name="description" content="Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internati xalqaro Cambridge ta'lim standartlari va zamonaviy STEM integratsiyasi asosida iqtidorli yoshlarni jahon yetakchilari qilib tarbiyalaydi."/>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-ice": "#F8FAFC",
+            "border-subtle": "#E2E8F0",
+            "on-tertiary-container": "#878faa",
+            "tertiary-container": "#1f283e",
+            "outline-variant": "#c5c6d1",
+            "primary-fixed": "#dce1ff",
+            "surface-variant": "#d8e3fb",
+            "gold-light": "#FDF7E7",
+            "secondary-container": "#fed65b",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f0f3ff",
+            "surface-container": "#e7eeff",
+            "secondary-fixed": "#ffe088",
+            "background": "#f9f9ff",
+            "on-error-container": "#93000a",
+            "primary-fixed-dim": "#b5c4ff",
+            "surface-container-highest": "#d8e3fb",
+            "prestige-gold": "#D4AF37",
+            "on-primary-fixed-variant": "#304380",
+            "surface-container-high": "#dee8ff",
+            "on-secondary-fixed-variant": "#574500",
+            "on-secondary-container": "#745c00",
+            "error": "#ba1a1a",
+            "on-primary": "#ffffff",
+            "secondary-fixed-dim": "#e9c349",
+            "gold-hover": "#B89628",
+            "on-tertiary-fixed-variant": "#3e465e",
+            "surface-dim": "#cfdaf2",
+            "midnight-navy": "#060F24",
+            "royal-blue-deep": "#0D2460",
+            "inverse-primary": "#b5c4ff",
+            "on-tertiary": "#ffffff",
+            "surface-bright": "#f9f9ff",
+            "surface-card": "#FFFFFF",
+            "tertiary-fixed": "#dae2ff",
+            "surface-tint": "#495b99",
+            "tertiary": "#0a1329",
+            "on-secondary": "#ffffff",
+            "stem-accent-blue": "#0284C7",
+            "inverse-surface": "#263143",
+            "on-primary-container": "#7b8dcf",
+            "tertiary-fixed-dim": "#bdc6e2",
+            "on-surface": "#111c2d",
+            "surface": "#f9f9ff",
+            "primary-container": "#0d2460",
+            "on-secondary-fixed": "#241a00",
+            "secondary": "#735c00",
+            "inverse-on-surface": "#ecf1ff",
+            "on-tertiary-fixed": "#121b30",
+            "on-surface-variant": "#454650",
+            "error-container": "#ffdad6",
+            "outline": "#757681",
+            "on-error": "#ffffff",
+            "on-primary-fixed": "#00164e",
+            "primary": "#00103e",
+            "on-background": "#111c2d"
+          },
+          fontFamily: {
+            "display-hero": ["Playfair Display", "serif"],
+            "headline-lg": ["Playfair Display", "serif"],
+            "headline-md": ["Playfair Display", "serif"],
+            "headline-sm": ["Outfit", "sans-serif"],
+            "body-lg": ["Outfit", "sans-serif"],
+            "body-md": ["Outfit", "sans-serif"],
+            "body-sm": ["Outfit", "sans-serif"],
+            "label-md": ["Outfit", "sans-serif"],
+            "label-sm": ["Outfit", "sans-serif"],
+            "label-badge": ["Outfit", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Outfit', sans-serif;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #060F24;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #D4AF37;
+      border-radius: 4px;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-prestige-gold selection:text-midnight-navy">
+
+  <!-- TOP ANNOUNCEMENT BAR & HEADER -->
+  <header class="fixed top-0 w-full z-50 bg-[#0B1B3D]/95 backdrop-blur-xl border-b border-white/10 shadow-lg">
+    <!-- Top Utility Bar -->
+    <div class="bg-[#07122A] text-white border-b border-white/10 py-2">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between font-body-sm text-xs sm:text-sm">
+        <!-- Phone & Mail Pills -->
+        <div class="flex items-center gap-3 sm:gap-4">
+          <a href="tel:+998795732020" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/15 px-3.5 py-1.5 rounded-full text-white transition-all text-xs font-medium">
+            <span class="material-symbols-outlined text-[16px] text-[#D4AF37]">call</span>
+            <span>+998 79 573 20 20</span>
+          </a>
+          <a href="mailto:info@zarafshonimi.uz" class="hidden sm:flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/15 px-3.5 py-1.5 rounded-full text-white transition-all text-xs font-medium">
+            <span class="material-symbols-outlined text-[16px] text-[#D4AF37]">mail</span>
+            <span>info@zarafshonimi.uz</span>
+          </a>
+        </div>
+        
+        <!-- Socials & Language Selector -->
+        <div class="flex items-center gap-3 sm:gap-4">
+          <!-- Social links -->
+          <div class="flex items-center gap-2">
+            <a aria-label="Telegram" class="w-8 h-8 rounded-full bg-white/10 hover:bg-[#D4AF37] hover:text-[#07122A] transition-all flex items-center justify-center text-white" href="https://t.me/zarafshon_imi" target="_blank" title="Telegram">
+              <span class="material-symbols-outlined text-[16px]">send</span>
+            </a>
+            <a aria-label="Facebook" class="w-8 h-8 rounded-full bg-white/10 hover:bg-[#D4AF37] hover:text-[#07122A] transition-all flex items-center justify-center text-white" href="#" onclick="showToast('Facebook sahifamizga xush kelibsiz!')" title="Facebook">
+              <span class="material-symbols-outlined text-[16px]">public</span>
+            </a>
+            <a aria-label="YouTube" class="w-8 h-8 rounded-full bg-white/10 hover:bg-[#D4AF37] hover:text-[#07122A] transition-all flex items-center justify-center text-white" href="#" onclick="showToast('YouTube kanalimiz tayyorlanmoqda')" title="YouTube">
+              <span class="material-symbols-outlined text-[16px]">smart_display</span>
+            </a>
+          </div>
+
+          <div class="h-4 w-px bg-white/20 hidden sm:block"></div>
+          
+          <!-- Language Selector Pill -->
+          <div class="relative group">
+            <button class="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 border border-white/15 px-3.5 py-1.5 rounded-full text-xs font-medium text-white transition-colors">
+              <span class="material-symbols-outlined text-[16px] text-[#D4AF37]">language</span>
+              <span id="current-lang-text">O'zbek</span>
+              <span class="material-symbols-outlined text-[14px]">expand_more</span>
+            </button>
+            <div class="absolute right-0 mt-1 w-32 bg-[#0B1B3D] border border-white/15 rounded-xl shadow-xl py-2 hidden group-hover:block z-50">
+              <button onclick="setLanguage('uz')" class="w-full px-4 py-1.5 text-left text-xs text-white hover:bg-white/10 flex items-center justify-between">
+                <span>O'zbek</span> <span class="text-[#D4AF37]">✓</span>
+              </button>
+              <button onclick="setLanguage('ru')" class="w-full px-4 py-1.5 text-left text-xs text-slate-300 hover:bg-white/10">
+                <span>Русский</span>
+              </button>
+              <button onclick="setLanguage('en')" class="w-full px-4 py-1.5 text-left text-xs text-slate-300 hover:bg-white/10">
+                <span>English</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar with Center Emblem -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between h-24 relative">
+      <!-- Left Desktop Nav Links -->
+      <nav class="hidden xl:flex items-center gap-7 text-base font-semibold text-white">
+        <!-- Biz haqimizda dropdown -->
+        <div class="relative group">
+          <a class="flex items-center gap-1.5 hover:text-[#D4AF37] py-2.5 transition-colors cursor-pointer" href="#about">
+            <span>Biz haqimizda</span>
+            <span class="material-symbols-outlined text-[18px] text-white/80 group-hover:text-[#D4AF37]">expand_more</span>
+          </a>
+          <div class="absolute left-0 mt-2 w-52 bg-[#0B1B3D] border border-white/15 rounded-xl shadow-2xl py-2.5 hidden group-hover:block z-50">
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#about">Maktab Tarixi</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#about">Missiyamiz</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#statistika">Maktab Infratuzilmasi</a>
+          </div>
+        </div>
+
+        <!-- Ta'lim dropdown -->
+        <div class="relative group">
+          <a class="flex items-center gap-1.5 hover:text-[#D4AF37] py-2.5 transition-colors cursor-pointer" href="#talim">
+            <span>Ta'lim</span>
+            <span class="material-symbols-outlined text-[18px] text-white/80 group-hover:text-[#D4AF37]">expand_more</span>
+          </a>
+          <div class="absolute left-0 mt-2 w-56 bg-[#0B1B3D] border border-white/15 rounded-xl shadow-2xl py-2.5 hidden group-hover:block z-50">
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#talim">Cambridge IGCSE & A-Level</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#talim">FabLab & STEM Dasturi</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#talim">Soft Skills va Liderlik</a>
+          </div>
+        </div>
+
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#qabul">Qabul</a>
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#statistika">Statistika</a>
+      </nav>
+
+      <!-- Center Logo Emblem (Official Presidential School Emblem) -->
+      <a href="#" class="xl:absolute xl:left-1/2 xl:-translate-x-1/2 flex items-center justify-center z-20 group" title="Prezident Maktabi Rasmiy Gerbi">
+        <div class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full bg-[#0B1B3D] border-2 border-[#D4AF37] p-1 shadow-2xl flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+          <img src="logo.png" onerror="this.src='https://namps.uz/assets/logo-DgE6UXMF.png'" alt="O'zbekiston Respublikasi Prezident Maktabi Rasmiy Gerbi" class="w-full h-full object-cover rounded-full drop-shadow-md" />
+        </div>
+      </a>
+
+      <!-- Right Desktop Nav Links -->
+      <nav class="hidden xl:flex items-center gap-7 text-base font-semibold text-white">
+        <!-- Natijalar dropdown -->
+        <div class="relative group">
+          <a class="flex items-center gap-1.5 hover:text-[#D4AF37] py-2.5 transition-colors cursor-pointer" href="#results">
+            <span>Natijalar</span>
+            <span class="material-symbols-outlined text-[18px] text-white/80 group-hover:text-[#D4AF37]">expand_more</span>
+          </a>
+          <div class="absolute right-0 mt-2 w-52 bg-[#0B1B3D] border border-white/15 rounded-xl shadow-2xl py-2.5 hidden group-hover:block z-50">
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#results">Olimpiada Medallari</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#results">IELTS Rekordlari</a>
+            <a class="block px-4 py-2.5 text-sm text-white/90 hover:text-[#D4AF37] hover:bg-white/10" href="#statistika">TOP Universitetlar</a>
+          </div>
+        </div>
+
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#teachers">O'qituvchilar</a>
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#news">Yangiliklar</a>
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#gallery">Galereya</a>
+        <a class="hover:text-[#D4AF37] py-2.5 transition-colors" href="#contact">Aloqa</a>
+      </nav>
+
+      <!-- Mobile & Quick Search Buttons -->
+      <div class="flex xl:hidden items-center gap-3">
+        <button onclick="openSearchModal()" aria-label="Qidiruv" class="w-10 h-10 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/20 transition-colors">
+          <span class="material-symbols-outlined text-[20px]">search</span>
+        </button>
+        <button onclick="toggleMobileMenu()" aria-label="Menyu" class="w-10 h-10 rounded-lg bg-white/10 text-white flex items-center justify-center hover:bg-white/20 transition-colors">
+          <span class="material-symbols-outlined text-[24px]" id="mobile-menu-icon">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-drawer" class="hidden xl:hidden bg-[#07122A] border-b border-white/10 px-6 py-6 transition-all duration-300 shadow-xl">
+      <div class="flex flex-col gap-3 text-sm text-white font-medium">
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10 flex items-center justify-between" href="#about">
+          <span>Biz haqimizda</span>
+          <span class="material-symbols-outlined text-[18px] text-[#D4AF37]">chevron_right</span>
+        </a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10 flex items-center justify-between" href="#talim">
+          <span>Ta'lim</span>
+          <span class="material-symbols-outlined text-[18px] text-[#D4AF37]">chevron_right</span>
+        </a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#qabul">Qabul</a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#statistika">Statistika</a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10 flex items-center justify-between" href="#results">
+          <span>Natijalar</span>
+          <span class="material-symbols-outlined text-[18px] text-[#D4AF37]">chevron_right</span>
+        </a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#teachers">O'qituvchilar</a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#news">Yangiliklar</a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#gallery">Galereya</a>
+        <a onclick="toggleMobileMenu()" class="px-4 py-2.5 rounded-lg hover:bg-white/10" href="#contact">Aloqa</a>
+        
+        <div class="pt-4 border-t border-white/10">
+          <button onclick="toggleMobileMenu(); openAdmissionModal();" class="w-full py-3.5 bg-[#D4AF37] hover:bg-[#c49f27] text-[#07122A] font-bold rounded-xl flex items-center justify-center gap-2 shadow-md">
+            <span class="material-symbols-outlined text-[20px]">how_to_reg</span>
+            <span>Qabul 2025 Ariza Topshirish</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="w-full pt-28 bg-[#0B1B3D]">
+    <div class="flex flex-col w-full">
+
+      <!-- HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-[#0B1B3D] text-white pt-24 pb-20 md:pt-32 md:pb-28 min-h-[90vh] flex items-center">
+        <!-- Background Image with Gradient Overlay -->
+        <div class="absolute inset-0 z-0">
+          <div class="w-full h-full bg-cover bg-center opacity-30 scale-105 transition-transform duration-1000 ease-out hover:scale-100" 
+               style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAYIGCfT0ralYqyojPgnHpgqAw12wAOTO7vDMFpZwI9Axpost2qA2qe0cO52AICsHkGPZGvFPM9m9uidpwHqC-WrUAZfRzPLDYyWRkX3kT6Ex82y8PZIXKgjub2Dtv3CTfs7IsbtQk4OsLKofXpFwk2rI_ibm6PJlaljBSMa5xAkK4PUksRqzrjFKcn2WI53kr2A8NNByClAWExBu9d78kuOy3-USTRZzq2GzTRmKnQxgdxAk5aFuOu')"></div>
+          <div class="absolute inset-0 bg-gradient-to-b from-[#07122A]/90 via-[#0B1B3D]/85 to-[#0B1B3D]"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col items-center text-center">
+          <!-- Main Display Heading (Identical to namps.uz screenshot) -->
+          <h1 class="font-display-hero text-4xl sm:text-5xl md:text-6xl max-w-4xl text-white mb-6 leading-tight drop-shadow-md font-bold tracking-tight">
+            Kelajak yetakchilarini bugundan tayyorlaymiz
+          </h1>
+
+          <!-- Subtitle (Identical text to namps.uz screenshot) -->
+          <p class="font-body-lg text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mb-10 leading-relaxed font-normal">
+            Prezident maktabi — iqtidorli yoshlar uchun zamonaviy bilim, xalqaro standartlar va kuchli tarbiya uyg'unlashgan ta'lim maskani. Biz global fikrlaydigan, mas'uliyatli va raqobatbardosh avlodni yetishtiramiz.
+          </p>
+
+          <!-- Primary CTA Button (Translucent dark rounded pill button with right arrow) -->
+          <div class="mb-16">
+            <a class="inline-flex items-center gap-2.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-label-md text-base px-8 py-3.5 rounded-xl transition-all duration-300 hover:scale-105 shadow-xl" href="#about">
+              <span>Batafsil ma'lumot</span>
+              <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Hero 3 Feature Cards Overlay (Identical layout and design to bottom cards in screenshot) -->
+          <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+            <div class="group relative rounded-2xl bg-[#0D224C]/80 backdrop-blur-xl border border-white/15 p-7 transition-all duration-300 hover:-translate-y-1 hover:bg-[#0D224C]/95 shadow-2xl">
+              <div class="w-12 h-12 rounded-full bg-white/10 border border-white/20 text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-[#07122A] transition-all">
+                <span class="material-symbols-outlined text-[26px]">school</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-white mb-2">Zamonaviy o'quv dasturi</h3>
+              <p class="font-body-sm text-sm text-slate-300 leading-relaxed">
+                Kelajakka tayyor fikrlash bilan hamda zamonaviy STEM dasturlari va amaliy ilmiy izlanishlar.
+              </p>
+            </div>
+
+            <div class="group relative rounded-2xl bg-[#0D224C]/80 backdrop-blur-xl border border-white/15 p-7 transition-all duration-300 hover:-translate-y-1 hover:bg-[#0D224C]/95 shadow-2xl">
+              <div class="w-12 h-12 rounded-full bg-white/10 border border-white/20 text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-[#07122A] transition-all">
+                <span class="material-symbols-outlined text-[26px]">public</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-white mb-2">Global qarash</h3>
+              <p class="font-body-sm text-sm text-slate-300 leading-relaxed">
+                Ingliz tilidagi ta'lim va xalqaro Cambridge standartlari hamda dunyo akademik intizomi.
+              </p>
+            </div>
+
+            <div class="group relative rounded-2xl bg-[#0D224C]/80 backdrop-blur-xl border border-white/15 p-7 transition-all duration-300 hover:-translate-y-1 hover:bg-[#0D224C]/95 shadow-2xl">
+              <div class="w-12 h-12 rounded-full bg-white/10 border border-white/20 text-white flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-[#D4AF37] group-hover:text-[#07122A] transition-all">
+                <span class="material-symbols-outlined text-[26px]">bookmark</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-white mb-2">Nufuzli pedagoglar jamoasi</h3>
+              <p class="font-body-sm text-sm text-slate-300 leading-relaxed">
+                O'zbekiston va xorijdan kelgan yuqori malakali, tajribali hamda nufuzli ustozlar korpusi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRESIDENTIAL QUOTE BANNER -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 -mt-10 relative z-20 w-full">
+        <div class="rounded-2xl bg-royal-blue-deep text-on-primary shadow-2xl overflow-hidden flex flex-col lg:flex-row items-center border border-prestige-gold/20">
+          <!-- Portrait Container -->
+          <div class="w-full lg:w-2/5 h-80 lg:h-96 relative overflow-hidden bg-primary">
+            <img class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700" 
+                 alt="O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev" 
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0uGubL5UV7CaNB-_-jrqKNhY7oi2cKDxxIGRVrLGQxbkg5IP7E6mPOD5T8kxYg8dW60UKZFyKd8J9XEcwq-9UzpWhaxSNhGGmY_ocRXT0JB40-WNgNQjUI0TYdQ8xBvAELCVsfjd9-kG90kwJ43_JWPPn7v1I7C-DKInX2DiikAf5VyoQc_gXo_A4vSBf0INCdZC0iYTnwkNT6fdPSDcdFgTJeVFmgTjsiBcpq4oDCnBq9robvumG"/>
+            <div class="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-royal-blue-deep/90 via-transparent to-transparent"></div>
+          </div>
+          <!-- Quote Content -->
+          <div class="w-full lg:w-3/5 p-8 lg:p-14 relative flex flex-col justify-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-secondary-container/20 text-prestige-gold font-label-badge text-xs uppercase tracking-wider mb-4 w-fit border border-prestige-gold/30">
+              <span class="material-symbols-outlined text-[14px]">flag</span>
+              <span>Kelajak Maqsadlarimiz</span>
+            </div>
+            <blockquote class="font-headline-lg text-2xl sm:text-3xl text-on-primary mb-6 leading-snug font-serif italic">
+              “Biz uchinchi renessans poydevorini yaratishda ziyolilarimizga va iqtidorli yoshlarimizga katta ishonch bilan qaraymiz”
+            </blockquote>
+            <div class="flex items-center gap-3 pt-2">
+              <div class="w-12 h-1 bg-prestige-gold rounded-full"></div>
+              <div>
+                <h4 class="font-headline-sm text-lg sm:text-xl font-bold text-on-primary">Shavkat Mirziyoyev</h4>
+                <p class="font-label-sm text-xs sm:text-sm text-surface-container-high/80">O'zbekiston Respublikasi Prezidenti</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MISSION & ABOUT PREVIEW -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-24 w-full" id="about">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <!-- Left Column -->
+          <div class="lg:col-span-6 flex flex-col">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="material-symbols-outlined text-[20px] text-prestige-gold">stars</span>
+              <span class="font-label-badge text-xs sm:text-sm text-stem-accent-blue uppercase tracking-widest font-bold">Zarafshon IMI Haqida</span>
+            </div>
+            <h2 class="font-headline-lg text-3xl sm:text-4xl text-primary mb-6 font-bold">
+              Bizning oliy vazifamiz
+            </h2>
+            <p class="font-body-lg text-base sm:text-lg text-on-surface-variant leading-relaxed mb-8">
+              Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internati (Zarafshon IMI) missiyasi — iqtidorli o'quvchilar uchun akademik mukammallik, xalqaro tajriba va yetakchilik salohiyatini rivojlantirish orqali O'zbekistonning bugungi va kelajakdagi zafarlariga munosib hissa qo'shadigan avlodni tarbiyalashdir.
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
+              <div class="bg-surface-ice p-5 rounded-xl border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-10 h-10 rounded-md bg-surface-container flex items-center justify-center text-primary mb-3">
+                  <span class="material-symbols-outlined text-[22px] text-royal-blue-deep">history_edu</span>
+                </div>
+                <h3 class="font-label-md text-base text-primary font-bold mb-1">Maktab tarixi</h3>
+                <p class="font-body-sm text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+                  Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimida tashkil etilgan bo'lib, Navoiy viloyatida yetakchi intellektual maskandir.
+                </p>
+              </div>
+
+              <div class="bg-surface-ice p-5 rounded-xl border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-10 h-10 rounded-md bg-surface-container flex items-center justify-center text-stem-accent-blue mb-3">
+                  <span class="material-symbols-outlined text-[22px]">biotech</span>
+                </div>
+                <h3 class="font-label-md text-base text-primary font-bold mb-1">Zamonaviy infratuzilma</h3>
+                <p class="font-body-sm text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+                  Kompyuter zallari, FabLab laboratoriyalari, olimpiada standartidagi sport majmuasi hamda zamonaviy shinam yotoqxona.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <button onclick="showToast('Zarafshon IMI haqida to\'liq ma\'lumotnoma yuklanmoqda')" class="inline-flex items-center gap-2 font-label-md text-base text-royal-blue-deep hover:text-midnight-navy font-bold group cursor-pointer">
+                <span>Maktabimiz haqida ko'proq bilib oling</span>
+                <span class="material-symbols-outlined text-[20px] group-hover:translate-x-2 transition-transform">arrow_forward</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: Photo Collage -->
+          <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+            <div class="space-y-4">
+              <div class="overflow-hidden rounded-xl h-56 shadow-md bg-surface-container group">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 cursor-pointer" onclick="openLightbox(this.src)" alt="Talabalar dars jarayonida" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2vwAqmit8RDb6pRL6ctX6flbHHLiObQnVw3lK8f6kcvgBA8f7pEzUFS8ySPpqMSKSckfcDEpsvFpkGriid0gkc3TqB3o_Qd5RoxqGsYyzvSxe0tat2Xw923NgbZ06lEHSIEwCEKJsfQFgZd-MSGLUbH9Ow_BXXFDK8UhpzUIkKALmLcTME4zYG-vRF0MiZ4C9m8mFH6iP7cdMutEaQLX6JDTTvidsAvDIgYlTSNJR_sFfbiCkrhKu"/>
+              </div>
+              <div class="overflow-hidden rounded-xl h-64 shadow-md bg-surface-container group">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 cursor-pointer" onclick="openLightbox(this.src)" alt="Laboratoriya tajribalari" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB3x7Pie0c_GpxYgXy5AQ157MUaVSHy1a_aRVT2mrUbxIHC6Ep225ZY2hX0WtQlnwwwLuY1o6uTUKw1_9XaD7kCY9x1kEOM8qlk3XUnGQvmOQyTptC-G-Q0yO9vtbApFUJo44woOljZEUIoax9V65nnNw73SaJER74bFbLebtiyJ4HM3PCExMUQ_vth26AEgMG9jx4tN34A3gmlxJClUegiKa_gZdlmFCsvxz5ViGyt8t_YTQbm9Ov"/>
+              </div>
+            </div>
+            <div class="space-y-4 pt-8">
+              <div class="overflow-hidden rounded-xl h-64 shadow-md bg-surface-container group">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 cursor-pointer" onclick="openLightbox(this.src)" alt="Robototexnika mashg'uloti" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxFMn3cTvo0kFvnSzIgLpmnjV5KVwRib4lI2U2rLppl_nr_FG5fTx-se2GoM0tUoFuPLXF4YhvO98KSghNvtov2amNPpwh1FNWEidfs7-hIWt5Q9A3pVLiRcCMGaWC6ir-8sXilDboaplfuDOxe9I0FDavqLbKvgGcT49tejbhxCbdi15xkx5UsrXYrBoO5CduBQg__H8qyy1IBIy868HdQqyn6R_sEnw1RJ92m0Nhiq6cTPJW2yQn"/>
+              </div>
+              <div class="overflow-hidden rounded-xl h-48 shadow-md bg-surface-container group">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 cursor-pointer" onclick="openLightbox(this.src)" alt="Ochiq havoda muloqot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtg-2JtBZs2E_qgZeU6lSNmgxZh80als3Xap6hTIuPUEkg3X1QT6UCv5ZuinKWk0o7rxrGyi_3frS_t1w7_ufi5dnsIFznoj3FN9wrO16NzAxUZC-czHXuWnA7NCIqMOL_OA4bJoJTOFEiRZRyF9qeJo3Oo5MabZhx2cPWMmCeQbbqRYqOVOgHlrVZroG9yueD4gagQaI4ICD0LJqNRYRsMV_LVg1_BfJ4cKAOH3GzqhtyN0AfVMQ5"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATISTIKA SECTION (ANIMATED METRICS) -->
+      <section class="w-full bg-midnight-navy text-on-primary py-20 relative overflow-hidden" id="statistika">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
+          <div class="text-center mb-16">
+            <span class="font-label-badge text-xs sm:text-sm text-prestige-gold uppercase tracking-widest block mb-2 font-bold">Yuksak Raqamlar va Natijalar</span>
+            <h2 class="font-headline-lg text-3xl sm:text-5xl text-on-primary font-bold">Maktabimiz statistikasi</h2>
+          </div>
+
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 text-center">
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md">
+              <span class="font-display-hero text-4xl sm:text-6xl text-prestige-gold font-bold block mb-2" id="stat-1">100%</span>
+              <span class="font-headline-sm text-base sm:text-lg font-semibold block mb-1">Davlat Granti</span>
+              <p class="font-body-sm text-xs sm:text-sm text-surface-container-high/70">Barcha o'quvchilar bepul ta'lim va bepul yotoqxona bilan ta'minlanadi</p>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md">
+              <span class="font-display-hero text-4xl sm:text-6xl text-stem-accent-blue font-bold block mb-2" id="stat-2">8.2+</span>
+              <span class="font-headline-sm text-base sm:text-lg font-semibold block mb-1">O'rtacha IELTS Ball</span>
+              <p class="font-body-sm text-xs sm:text-sm text-surface-container-high/70">Bitiruvchilarimizning ingliz tili bo'yicha yuqori xalqaro ko'rsatkichi</p>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md">
+              <span class="font-display-hero text-4xl sm:text-6xl text-prestige-gold font-bold block mb-2" id="stat-3">54+</span>
+              <span class="font-headline-sm text-base sm:text-lg font-semibold block mb-1">Xalqaro Medallar</span>
+              <p class="font-body-sm text-xs sm:text-sm text-surface-container-high/70">Xalqaro fan olimpiadalarida qo'lga kiritilgan oltin, kumush va bronza medallar</p>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-md">
+              <span class="font-display-hero text-4xl sm:text-6xl text-stem-accent-blue font-bold block mb-2" id="stat-4">100%</span>
+              <span class="font-headline-sm text-base sm:text-lg font-semibold block mb-1">Universitetga Kirish</span>
+              <p class="font-body-sm text-xs sm:text-sm text-surface-container-high/70">Bitiruvchilarning jahon va respublika TOP universitetlariga qabul qilinishi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACADEMIC ACHIEVEMENTS & OLYMPIAD SECTION -->
+      <section class="w-full bg-surface-container-low py-24" id="results">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col items-center">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-light text-prestige-gold font-label-badge text-xs sm:text-sm uppercase tracking-wider mb-4 shadow-sm border border-prestige-gold/20">
+            <span class="material-symbols-outlined text-[18px]">military_tech</span>
+            <span>Yuksak Akademik Zafarlar</span>
+          </div>
+          <h2 class="font-headline-lg text-3xl sm:text-5xl text-primary text-center max-w-4xl mb-14 font-bold leading-tight">
+            O'quvchilarimizni Ivy League va dunyoning TOP-100 oliygohlariga tayyorlaymiz
+          </h2>
+
+          <!-- Featured Olympiad Medal Banner Card -->
+          <div class="w-full bg-surface-card rounded-2xl shadow-xl overflow-hidden flex flex-col lg:flex-row border border-border-subtle">
+            <div class="w-full lg:w-1/2 relative min-h-[340px] bg-primary group overflow-hidden">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                   alt="IOI 2025 Medali sohibi" 
+                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPtVweqr54rYFNHBv8VxRVf_jeFEdHBPzhekGJp5moWMkjsMvIjXwzupuj6CgkI2RRHTBhk281bDt3P2PwklG_8seMA_6hEw-w4AaNE4KyQizUXdlk8YJeGVhdiimTexDNolhjTMVS1BfLbomD1uy2iCn9uCeaOttrEUXQDv2OOGOjcz3ubGY-Db-P6EknmbYGbZHlvVoS7r0CbRryKWteFlgJIDT4LdfO_J4l5hzvDV8rqFQWe51U"/>
+              <div class="absolute bottom-4 left-4 bg-midnight-navy/90 backdrop-blur-md px-4 py-2 rounded-lg text-prestige-gold font-label-badge text-xs sm:text-sm tracking-wider font-bold border border-prestige-gold/30">
+                IOI 2025 MEDALIST
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 p-8 lg:p-12 flex flex-col justify-between">
+              <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-secondary-container/30 text-gold-hover font-label-badge text-xs uppercase tracking-wider mb-4 font-bold">
+                  <span class="material-symbols-outlined text-[16px]">emoji_events</span>
+                  <span>Xalqaro Zafar</span>
+                </div>
+                <h3 class="font-headline-md text-2xl sm:text-3xl text-primary mb-4 font-bold leading-tight">
+                  IOI 2025 (Xalqaro Informatika Olimpiadasi) Bronza Medali
+                </h3>
+                <p class="font-body-md text-base text-on-surface-variant leading-relaxed mb-8">
+                  Maktabimiz o'quvchisi 90 dan ortiq mamlakatdan tashrif buyurgan 350 nafar saralangan iqtidorli dasturchilar orasida yuksak natija ko'rsatib, O'zbekiston bayrog'ini baland ko'tardi.
+                </p>
+                
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                  <div class="bg-surface-ice p-4 rounded-xl border border-border-subtle">
+                    <span class="font-headline-sm text-xl text-primary block font-bold">1-Bronza</span>
+                    <span class="font-body-sm text-xs sm:text-sm text-on-surface-variant leading-tight">Navoiy viloyati va Zarafshon shahridagi ilk xalqaro medali</span>
+                  </div>
+                  <div class="bg-surface-ice p-4 rounded-xl border border-border-subtle">
+                    <span class="font-headline-sm text-xl text-stem-accent-blue block font-bold">Top 5%</span>
+                    <span class="font-body-sm text-xs sm:text-sm text-on-surface-variant leading-tight">Jahondagi eng kuchli yosh dasturchilar safida</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <button onclick="showToast('Chempionlar ro\'yxati yuklanmoqda!')" class="inline-flex items-center justify-center gap-2 bg-royal-blue-deep hover:bg-midnight-navy text-on-primary font-label-md text-sm sm:text-base px-6 py-3.5 rounded-lg shadow-md transition-all font-bold">
+                  <span>CHEMPIONLARNI KO'RISH</span>
+                  <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TA'LIM DASTURLARI (CURRICULUM & STEM) -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-24 w-full" id="talim">
+        <div class="text-center mb-16">
+          <span class="font-label-badge text-xs sm:text-sm text-royal-blue-deep uppercase tracking-widest block mb-2 font-bold">Jahon Standartidagi Ta'lim</span>
+          <h2 class="font-headline-lg text-3xl sm:text-5xl text-primary font-bold">Ta'lim yo'nalishlari va laboratoriyalar</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-surface-card rounded-2xl p-8 border border-border-subtle shadow-md hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-xl bg-surface-container text-royal-blue-deep flex items-center justify-center mb-6">
+              <span class="material-symbols-outlined text-[32px]">school</span>
+            </div>
+            <h3 class="font-headline-sm text-2xl font-bold text-primary mb-3">Cambridge Assessment</h3>
+            <p class="font-body-sm text-base text-on-surface-variant leading-relaxed mb-6">
+              Xalqaro Cambridge IGCSE va AS/A-Level dasturlari asosida o'qitiladigan fizika, matematika, kimyo va biologiya fanlari.
+            </p>
+            <ul class="space-y-2 font-body-sm text-sm text-on-surface font-medium">
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-prestige-gold">check_circle</span> 100% Ingliz tili muhiti</li>
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-prestige-gold">check_circle</span> Cambridge Xalqaro Sertifikati</li>
+            </ul>
+          </div>
+
+          <div class="bg-surface-card rounded-2xl p-8 border border-border-subtle shadow-md hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-xl bg-surface-container text-stem-accent-blue flex items-center justify-center mb-6">
+              <span class="material-symbols-outlined text-[32px]">memory</span>
+            </div>
+            <h3 class="font-headline-sm text-2xl font-bold text-primary mb-3">FabLab & Robototexnika</h3>
+            <p class="font-body-sm text-base text-on-surface-variant leading-relaxed mb-6">
+              3D printerlar, lazer kaskadlar, Arduino va Raspberry Pi modullari bilan jihozlangan eng zamonaviy muhandislik laboratoriyasi.
+            </p>
+            <ul class="space-y-2 font-body-sm text-sm text-on-surface font-medium">
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-stem-accent-blue">check_circle</span> Mikrokontrollerlar & IoT</li>
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-stem-accent-blue">check_circle</span> Python & C++ Dasturlash</li>
+            </ul>
+          </div>
+
+          <div class="bg-surface-card rounded-2xl p-8 border border-border-subtle shadow-md hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-xl bg-surface-container text-prestige-gold flex items-center justify-center mb-6">
+              <span class="material-symbols-outlined text-[32px]">psychology</span>
+            </div>
+            <h3 class="font-headline-sm text-2xl font-bold text-primary mb-3">Soft Skills & Leadership</h3>
+            <p class="font-body-sm text-base text-on-surface-variant leading-relaxed mb-6">
+              Debat klublari, MUN (Model United Nations), critical thinking hamda xalqaro ijtimoiy loyihalar bo'yicha ko'nikmalar.
+            </p>
+            <ul class="space-y-2 font-body-sm text-sm text-on-surface font-medium">
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-prestige-gold">check_circle</span> Natijador Debat Jamiyati</li>
+              <li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-prestige-gold">check_circle</span> Liderlik Dasturlari</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEACHERS & FACULTY SECTION -->
+      <section class="w-full bg-surface-ice py-24 border-t border-border-subtle" id="teachers">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+              <span class="font-label-badge text-xs sm:text-sm text-royal-blue-deep uppercase tracking-widest block mb-2 font-bold">Xalqaro Pedagoglar Korpusi</span>
+              <h2 class="font-headline-lg text-3xl sm:text-4xl text-primary font-bold">Bizning ustozlarimiz</h2>
+            </div>
+            <p class="font-body-md text-sm sm:text-base text-on-surface-variant max-w-md mt-4 md:mt-0">
+              O'zbekiston hamda xorijiy davlatlardan taklif etilgan oliy toifali mutaxassislar va PhD darajasidagi olimlar.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Teacher Card 1 -->
+            <div class="bg-surface-card rounded-2xl overflow-hidden border border-border-subtle shadow-md hover:shadow-xl transition-all group">
+              <div class="h-64 overflow-hidden bg-primary relative">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Teacher" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC4CbOJqVScnHUlFc_cQabMrLfZOkMoHHheIYhxb-3sTWxWydJWOXx3ECVtc_MRPp2iNwOCknZKfsraZEOvAPJv8woOVW2AxivW6BOQlT85_xL7X_6Jrb9IYnWGdJoujrL3S8B6--155AA5lRe97Ej5eZ_gqMphttWlGmyVrAW6j0cUihumcvossw6h3L6j9HJCYF-EucdiuEo9QWvUQnVoSNmU-JnDbBGuszYDV6thNK4F4xfQBsg"/>
+                <div class="absolute bottom-2 left-2 bg-midnight-navy/90 text-prestige-gold px-3 py-1 rounded text-xs font-bold">
+                  Cambridge Trainer
+                </div>
+              </div>
+              <div class="p-5 text-center">
+                <h3 class="font-headline-sm text-lg font-bold text-primary">Dr. John Smith</h3>
+                <p class="font-label-badge text-xs text-stem-accent-blue font-semibold uppercase mb-2">Fizika & STEM Mudiri (UK)</p>
+                <p class="font-body-sm text-xs text-on-surface-variant">15 yillik xalqaro o'qituvchilik tajribasi va Cambridge sertifikati sohibi.</p>
+              </div>
+            </div>
+
+            <!-- Teacher Card 2 -->
+            <div class="bg-surface-card rounded-2xl overflow-hidden border border-border-subtle shadow-md hover:shadow-xl transition-all group">
+              <div class="h-64 overflow-hidden bg-primary relative">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Teacher" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB3x7Pie0c_GpxYgXy5AQ157MUaVSHy1a_aRVT2mrUbxIHC6Ep225ZY2hX0WtQlnwwwLuY1o6uTUKw1_9XaD7kCY9x1kEOM8qlk3XUnGQvmOQyTptC-G-Q0yO9vtbApFUJo44woOljZEUIoax9V65nnNw73SaJER74bFbLebtiyJ4HM3PCExMUQ_vth26AEgMG9jx4tN34A3gmlxJClUegiKa_gZdlmFCsvxz5ViGyt8t_YTQbm9Ov"/>
+                <div class="absolute bottom-2 left-2 bg-midnight-navy/90 text-prestige-gold px-3 py-1 rounded text-xs font-bold">
+                  Olimpiada Murabbiysi
+                </div>
+              </div>
+              <div class="p-5 text-center">
+                <h3 class="font-headline-sm text-lg font-bold text-primary">Jasurbek Alimov</h3>
+                <p class="font-label-badge text-xs text-stem-accent-blue font-semibold uppercase mb-2">Informatika & Algoritmlar</p>
+                <p class="font-body-sm text-xs text-on-surface-variant">Xalqaro Informatika Olimpiadasi bronza medali sohiblarining ustozi.</p>
+              </div>
+            </div>
+
+            <!-- Teacher Card 3 -->
+            <div class="bg-surface-card rounded-2xl overflow-hidden border border-border-subtle shadow-md hover:shadow-xl transition-all group">
+              <div class="h-64 overflow-hidden bg-primary relative">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Teacher" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcu4uN5VMbu56E4VL1pCnR-HKbyhs39BrwiXcg2zbogottc48WBQXWxlUIlCpCa3AjNlE0wIgG2VBmWSop1FzE2Yc3K0UYcRJYmojF-9SFJOUtBzP_TC1D5cwKmz37CFkOmKFGdaCRZeUn-mwPHDJnXfXSAkaNvPzl6NqmpYZR77DSia9rdeXraqhOhw_3fHarltCDwNtK_M8bKRjnwGaobQrqw8qTVVwbHxHwW-CkQxmtRwXJw3im"/>
+                <div class="absolute bottom-2 left-2 bg-midnight-navy/90 text-prestige-gold px-3 py-1 rounded text-xs font-bold">
+                  IELTS Specialist
+                </div>
+              </div>
+              <div class="p-5 text-center">
+                <h3 class="font-headline-sm text-lg font-bold text-primary">Sarah Jenkins</h3>
+                <p class="font-label-badge text-xs text-stem-accent-blue font-semibold uppercase mb-2">Ingliz Tili Kafedrasi (USA)</p>
+                <p class="font-body-sm text-xs text-on-surface-variant">IELTS 8.5 va 9.0 ball olgan o'quvchilarning bosh murabbiysi.</p>
+              </div>
+            </div>
+
+            <!-- Teacher Card 4 -->
+            <div class="bg-surface-card rounded-2xl overflow-hidden border border-border-subtle shadow-md hover:shadow-xl transition-all group">
+              <div class="h-64 overflow-hidden bg-primary relative">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Teacher" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYtpL0UIHr8AKPfx99gtkqUF8ldZWgK4U4xz2ilMv4p6424dcYJvvwCSuMRbSi0Dj7ujXxuld4i8yp6AKKCb2EmebgSl_791MobiiL39TWbKOmQ63lLSeBWYzsjCTLo-efSOkLA9lhGF9hsCuZc3WVIStiydtfCGFp_kCZunTvRPCvI9y10Tq5JGyOeUO-jwJiuZ8WLWQjaprwiPI_UdWZ5NNoY5PQPpbk1SeUThM8hjxP4TOFMVu0"/>
+                <div class="absolute bottom-2 left-2 bg-midnight-navy/90 text-prestige-gold px-3 py-1 rounded text-xs font-bold">
+                  Oliy Toifa
+                </div>
+              </div>
+              <div class="p-5 text-center">
+                <h3 class="font-headline-sm text-lg font-bold text-primary">Nilufar Sobirova</h3>
+                <p class="font-label-badge text-xs text-stem-accent-blue font-semibold uppercase mb-2">Matematika & Mantiq</p>
+                <p class="font-body-sm text-xs text-on-surface-variant">Respublika matematika olimpiadasi ekspertlar kengashi a'zosi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS AND ANNOUNCEMENTS -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-24 w-full" id="news">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <span class="font-label-badge text-xs sm:text-sm text-royal-blue-deep uppercase tracking-widest block mb-2 font-bold">Yangiliklar va Tadbirlar</span>
+            <h2 class="font-headline-lg text-3xl sm:text-4xl text-primary font-bold">So'nggi yangiliklar va e'lonlar</h2>
+          </div>
+          <button onclick="showToast('Barcha yangiliklar sahifasiga o\'tilmoqda!')" class="mt-4 md:mt-0 inline-flex items-center gap-2 text-royal-blue-deep hover:text-midnight-navy font-label-md text-base font-bold group cursor-pointer">
+            <span>Barcha yangiliklar va tadbirlar</span>
+            <span class="material-symbols-outlined text-[20px] group-hover:translate-x-1.5 transition-transform">arrow_forward</span>
+          </button>
+        </div>
+
+        <!-- News Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- News 1: IELTS Record -->
+          <article class="bg-surface-card rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between border border-border-subtle">
+            <div>
+              <div class="relative h-52 overflow-hidden bg-primary">
+                <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" alt="IELTS rekordisti Yorqinoy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYtpL0UIHr8AKPfx99gtkqUF8ldZWgK4U4xz2ilMv4p6424dcYJvvwCSuMRbSi0Dj7ujXxuld4i8yp6AKKCb2EmebgSl_791MobiiL39TWbKOmQ63lLSeBWYzsjCTLo-efSOkLA9lhGF9hsCuZc3WVIStiydtfCGFp_kCZunTvRPCvI9y10Tq5JGyOeUO-jwJiuZ8WLWQjaprwiPI_UdWZ5NNoY5PQPpbk1SeUThM8hjxP4TOFMVu0"/>
+                <div class="absolute top-3 left-3 bg-midnight-navy/85 backdrop-blur-md px-3 py-1 rounded text-prestige-gold font-label-badge text-xs tracking-wider uppercase font-bold border border-prestige-gold/30">
+                  IELTS Muvaffaqiyati
+                </div>
+                <div class="absolute bottom-3 right-3 bg-royal-blue-deep/90 text-on-primary font-label-badge text-xs px-3 py-1 rounded-full flex items-center gap-1 font-bold">
+                  <span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                  <span>Avgust, 2025</span>
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-headline-sm text-xl text-primary font-bold mb-3 line-clamp-2">
+                  10-sinf O'quvchimiz Yorqinoy Maxamadaliyeva Xalqaro IELTS Imtihonida 8.5 Ball Olishga Erishdi!
+                </h3>
+                <div class="bg-surface-ice rounded-lg p-3 grid grid-cols-2 gap-2 mb-4 border border-border-subtle">
+                  <div class="flex items-center gap-1.5 font-body-sm text-xs text-on-surface">
+                    <span class="material-symbols-outlined text-[16px] text-stem-accent-blue">headphones</span>
+                    <span>Listening: <strong>8.5</strong></span>
+                  </div>
+                  <div class="flex items-center gap-1.5 font-body-sm text-xs text-on-surface">
+                    <span class="material-symbols-outlined text-[16px] text-stem-accent-blue">menu_book</span>
+                    <span>Reading: <strong>8.5</strong></span>
+                  </div>
+                  <div class="flex items-center gap-1.5 font-body-sm text-xs text-on-surface">
+                    <span class="material-symbols-outlined text-[16px] text-prestige-gold">mic</span>
+                    <span>Speaking: <strong>8.0</strong></span>
+                  </div>
+                  <div class="flex items-center gap-1.5 font-body-sm text-xs text-on-surface">
+                    <span class="material-symbols-outlined text-[16px] text-prestige-gold">edit_note</span>
+                    <span>Writing: <strong>7.0</strong></span>
+                  </div>
+                </div>
+                <p class="font-body-sm text-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+                  Zarafshon IMI ingliz tili kafedrasi o'qituvchilari ko'magida tayyorlangan Yorqinoy nufuzli C1 darajasidagi oliy rekordni qayd etdi.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <button onclick="openNewsModal('Yorqinoy Maxamadaliyeva 8.5 IELTS Ballini Qayd Etgani Haqida Batafsil', 'Zarafshon IMI 10-sinf o\'quvchisi Yorqinoy Maxamadaliyeva tayyorgarlik va ustozlar ko\'magi natijasida IELTS Academic testida unikal 8.5 rekord ko\'rsatkichiga erishdi.')" class="inline-flex items-center gap-1 text-royal-blue-deep font-label-md text-sm font-bold group hover:underline">
+                <span>Batafsil o'qish</span>
+                <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">chevron_right</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- News 2: Admissions Examination -->
+          <article class="bg-surface-card rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between border border-border-subtle">
+            <div>
+              <div class="relative h-52 overflow-hidden bg-primary">
+                <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" alt="Qabul imtihonlari jarayoni" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMIC9rciSAsCKkcCmiEdHsPDeba3RZ1lGVKtfIP1Plpmsvuz31zHDe-YSwBLtaxB65DhcAk3SCEYmvMgJc-jpqv-Td-OUjCTp3nZKjakH17FQfzub0mYkwkaSiE555rm-oICU3e-Gu-gXgEc3HiE4LRHsgOM4PE2h6JnBr_2oorUePtYjGROOCRqCfoSZOdhZnulit6sinDeZA4Der6chtpdCeagtAxWtnIHOhpTgle-gxKFsJUo_4"/>
+                <div class="absolute top-3 left-3 bg-midnight-navy/85 backdrop-blur-md px-3 py-1 rounded text-surface-container-high font-label-badge text-xs tracking-wider uppercase font-bold border border-white/20">
+                  Qabul Imtihonlari
+                </div>
+                <div class="absolute bottom-3 right-3 bg-royal-blue-deep/90 text-on-primary font-label-badge text-xs px-3 py-1 rounded-full flex items-center gap-1 font-bold">
+                  <span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                  <span>Iyul, 2025</span>
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-headline-sm text-xl text-primary font-bold mb-3 line-clamp-2">
+                  Ixtisoslashtirilgan ta'lim muassasalari agentligi tizimidagi saralash imtihoni
+                </h3>
+                <p class="font-body-sm text-sm text-on-surface-variant line-clamp-3 leading-relaxed mb-4">
+                  Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internatiga saralash imtihonlarining 2-bosqichi shaffof va qat'iy video nazorat ostida o'tkazildi.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <button onclick="openNewsModal('Saralash Imtihonlari Natijalari va E\'lon', 'Zarafshon IMI kirish imtihonlari Cambridge Assessment International Education hamkorligida adolatli o\'tkazildi.')" class="inline-flex items-center gap-1 text-royal-blue-deep font-label-md text-sm font-bold group hover:underline">
+                <span>Batafsil o'qish</span>
+                <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">chevron_right</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- News 3: Physics Practical Exams -->
+          <article class="bg-surface-card rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex flex-col justify-between border border-border-subtle">
+            <div>
+              <div class="relative h-52 overflow-hidden bg-primary">
+                <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" alt="Fizika amaliy imtihon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXuBaxeX-w8mOfqzyTz0vHrGEhkyu4kr6xIyuOCkqoykm5224HfPeUfOWyiNQzHvjXryjcqHX9zePso1BDKEuVobHcz1mVKfUjFzcdD_QdtugNv0if3tcE2yzkUunCQgcOUB0GwbhnOGnaRAMK3ICgCBRw9PU3rs3XHpLmp7BeEwtjIRpFrh6Euy2ltU6u16YBRwZMpVo2ShIA79qNwI_l7Bs3v3yS1Gk-JatYyL_MDLHppAsPlMiC"/>
+                <div class="absolute top-3 left-3 bg-midnight-navy/85 backdrop-blur-md px-3 py-1 rounded text-stem-accent-blue font-label-badge text-xs tracking-wider uppercase font-bold border border-stem-accent-blue/30">
+                  Cambridge Imtihonlari
+                </div>
+                <div class="absolute bottom-3 right-3 bg-royal-blue-deep/90 text-on-primary font-label-badge text-xs px-3 py-1 rounded-full flex items-center gap-1 font-bold">
+                  <span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                  <span>May, 2025</span>
+                </div>
+              </div>
+              <div class="p-6">
+                <h3 class="font-headline-sm text-xl text-primary font-bold mb-3 line-clamp-2">
+                  Muvaffaqiyat Sari Navbatdagi Qadam: Fizika Fanidan Amaliy Imtihonlar!
+                </h3>
+                <p class="font-body-sm text-sm text-on-surface-variant line-clamp-3 leading-relaxed mb-4">
+                  Zarafshon IMI maktabida Cambridge xalqaro ta'lim dasturi doirasida Fizika fanidan amaliy laboratoriya imtihonlari muvaffaqiyatli yakuniga yetdi.
+                </p>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <button onclick="openNewsModal('Cambridge Physics Practical Laboratory Exams', 'O\'quvchilar lazer optikasi, termodinamika hamda elektromagnit tebranishlar bo\'yicha amaliy tajriba topshiriqlarini bajarishdi.')" class="inline-flex items-center gap-1 text-royal-blue-deep font-label-md text-sm font-bold group hover:underline">
+                <span>Batafsil o'qish</span>
+                <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">chevron_right</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- MAKTAB HAYOTI (PHOTO GALLERY BENTO GRID) -->
+      <section class="w-full bg-surface-ice py-24 border-t border-border-subtle" id="gallery">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="flex items-center justify-between mb-10">
+            <div>
+              <h2 class="font-headline-lg text-3xl sm:text-4xl text-primary font-bold">Bizning quvnoq maktab hayotimiz</h2>
+              <p class="font-body-md text-sm sm:text-base text-on-surface-variant mt-1">Darslar, ilmiy loyihalar, bayramlar va ijtimoiy faollik lahzalari</p>
+            </div>
+            <div class="flex items-center gap-3">
+              <button aria-label="Oldingi rasm" class="w-10 h-10 rounded-full bg-surface-card hover:bg-surface-container text-primary flex items-center justify-center shadow-sm transition-colors border border-border-subtle" id="gallery-prev">
+                <span class="material-symbols-outlined text-[20px]">chevron_left</span>
+              </button>
+              <button aria-label="Keyingi rasm" class="w-10 h-10 rounded-full bg-surface-card hover:bg-surface-container text-primary flex items-center justify-center shadow-sm transition-colors border border-border-subtle" id="gallery-next">
+                <span class="material-symbols-outlined text-[20px]">chevron_right</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Bento Grid Gallery -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+            <!-- Feature Big Card -->
+            <div class="md:col-span-6 relative rounded-2xl overflow-hidden min-h-[360px] shadow-md group border border-border-subtle cursor-pointer" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuAVQzuvu4ASoZB3b8r8AyX6Vdb-qzj4_-eIBIOk9ZDNFDp9RIHDVvczRqMkHBPmQegxYodn2x0-XC4d5k_Ze5iQonedAebrTTkhYZ7aTlTSTb470ESZl8NxkLusVVgDG0YkScFlm1LxxZ0e3SVZQn3h6ZwovIYWgnYCsnL5iSx9FQsHi3qjuUgP1wmlotYMzEsu7m91AL8AweIu4qyt_oVB598FsCjUcmB-mJq38iwzH_5gJ8oDt4o0')">
+              <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Maktab san'at va loyihalar ko'rgazmasi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVQzuvu4ASoZB3b8r8AyX6Vdb-qzj4_-eIBIOk9ZDNFDp9RIHDVvczRqMkHBPmQegxYodn2x0-XC4d5k_Ze5iQonedAebrTTkhYZ7aTlTSTb470ESZl8NxkLusVVgDG0YkScFlm1LxxZ0e3SVZQn3h6ZwovIYWgnYCsnL5iSx9FQsHi3qjuUgP1wmlotYMzEsu7m91AL8AweIu4qyt_oVB598FsCjUcmB-mJq38iwzH_5gJ8oDt4o0"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-midnight-navy/90 via-midnight-navy/30 to-transparent flex flex-col justify-end p-6">
+                <span class="px-3 py-1 bg-prestige-gold text-midnight-navy font-label-badge text-xs font-bold rounded w-fit mb-2">ASOSIY GALEREYA</span>
+                <h4 class="font-headline-sm text-xl text-on-primary font-bold">Zarafshon IMI maktabi hayotidan fotolavhalar</h4>
+              </div>
+            </div>
+
+            <!-- 4 Smaller Tiles Grid -->
+            <div class="md:col-span-6 grid grid-cols-2 gap-5">
+              <div class="relative rounded-2xl overflow-hidden h-44 shadow-sm group bg-surface-container cursor-pointer border border-border-subtle" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuBqhHg-xOVgMjOmWMSK95hNur-cTjJmNgac35fBJtnLp1WwMGE6LGKmFyjoAU4lmD6B-VHcuxFHm_szMag0sfWBY1wB7ZtDJWlqZSrVi94QNlMa5ASUgnXnaPwBTGVkauDyFqArmGCOy0BWhw0HQiTlWRZGg8H2dbHicao3gcdx7_9ShcR4RiyPTDLRk1-4BlKSgNsGXf8RtlyUJBqMNvq7d-6shBleAMCEb6Lpb7rZOVx-JTxx8Xzg')">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Biologiya darsi tajribasi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqhHg-xOVgMjOmWMSK95hNur-cTjJmNgac35fBJtnLp1WwMGE6LGKmFyjoAU4lmD6B-VHcuxFHm_szMag0sfWBY1wB7ZtDJWlqZSrVi94QNlMa5ASUgnXnaPwBTGVkauDyFqArmGCOy0BWhw0HQiTlWRZGg8H2dbHicao3gcdx7_9ShcR4RiyPTDLRk1-4BlKSgNsGXf8RtlyUJBqMNvq7d-6shBleAMCEb6Lpb7rZOVx-JTxx8Xzg"/>
+              </div>
+              <div class="relative rounded-2xl overflow-hidden h-44 shadow-sm group bg-surface-container cursor-pointer border border-border-subtle" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuB4O6CI58qDKEAN-JTxE2CLbW5XjzVYM0MCdklxYzEJR4lB9m2XzBo_98iXBiKfXNOkBh0mlmWRF-W3FY55BhK6wvEfPYVzvSa_6EYT9KcYtmwrl88KXN-812H6j2W-L1RTh8WmbnwVGDlaoVTfOWWpP2hk8AGIzvW2ZxjoAxAmnbaZqaUG_5V7tmfq9Zaq7GLhgpeoC6-FT_ZeIjrzKO2FpP_bZgoEubJztN3mKP9dTi5y-ZZBmMcg')">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Mikroskop ostida ilmiy izlanish" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4O6CI58qDKEAN-JTxE2CLbW5XjzVYM0MCdklxYzEJR4lB9m2XzBo_98iXBiKfXNOkBh0mlmWRF-W3FY55BhK6wvEfPYVzvSa_6EYT9KcYtmwrl88KXN-812H6j2W-L1RTh8WmbnwVGDlaoVTfOWWpP2hk8AGIzvW2ZxjoAxAmnbaZqaUG_5V7tmfq9Zaq7GLhgpeoC6-FT_ZeIjrzKO2FpP_bZgoEubJztN3mKP9dTi5y-ZZBmMcg"/>
+              </div>
+              <div class="relative rounded-2xl overflow-hidden h-44 shadow-sm group bg-surface-container cursor-pointer border border-border-subtle" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuCcu4uN5VMbu56E4VL1pCnR-HKbyhs39BrwiXcg2zbogottc48WBQXWxlUIlCpCa3AjNlE0wIgG2VBmWSop1FzE2Yc3K0UYcRJYmojF-9SFJOUtBzP_TC1D5cwKmz37CFkOmKFGdaCRZeUn-mwPHDJnXfXSAkaNvPzl6NqmpYZR77DSia9rdeXraqhOhw_3fHarltCDwNtK_M8bKRjnwGaobQrqw8qTVVwbHxHwW-CkQxmtRwXJw3im')">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Maktab taqdirlash marosimi" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcu4uN5VMbu56E4VL1pCnR-HKbyhs39BrwiXcg2zbogottc48WBQXWxlUIlCpCa3AjNlE0wIgG2VBmWSop1FzE2Yc3K0UYcRJYmojF-9SFJOUtBzP_TC1D5cwKmz37CFkOmKFGdaCRZeUn-mwPHDJnXfXSAkaNvPzl6NqmpYZR77DSia9rdeXraqhOhw_3fHarltCDwNtK_M8bKRjnwGaobQrqw8qTVVwbHxHwW-CkQxmtRwXJw3im"/>
+              </div>
+              <div class="relative rounded-2xl overflow-hidden h-44 shadow-sm group bg-surface-container cursor-pointer border border-border-subtle" onclick="openLightbox('https://lh3.googleusercontent.com/aida-public/AB6AXuBC4CbOJqVScnHUlFc_cQabMrLfZOkMoHHheIYhxb-3sTWxWydJWOXx3ECVtc_MRPp2iNwOCknZKfsraZEOvAPJv8woOVW2AxivW6BOQlT85_xL7X_6Jrb9IYnWGdJoujrL3S8B6--155AA5lRe97Ej5eZ_gqMphttWlGmyVrAW6j0cUihumcvossw6h3L6j9HJCYF-EucdiuEo9QWvUQnVoSNmU-JnDbBGuszYDV6thNK4F4xfQBsg')">
+                <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Konferensiya va ma'ruza" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC4CbOJqVScnHUlFc_cQabMrLfZOkMoHHheIYhxb-3sTWxWydJWOXx3ECVtc_MRPp2iNwOCknZKfsraZEOvAPJv8woOVW2AxivW6BOQlT85_xL7X_6Jrb9IYnWGdJoujrL3S8B6--155AA5lRe97Ej5eZ_gqMphttWlGmyVrAW6j0cUihumcvossw6h3L6j9HJCYF-EucdiuEo9QWvUQnVoSNmU-JnDbBGuszYDV6thNK4F4xfQBsg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACCREDITATIONS & PARTNERS STRIP -->
+      <section class="w-full bg-surface-card py-16 border-t border-border-subtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+          <div class="text-center mb-10">
+            <h2 class="font-headline-md text-2xl sm:text-3xl text-primary font-bold">Bizning xalqaro hamkorlarimiz</h2>
+            <p class="font-body-sm text-sm text-on-surface-variant mt-1">Rasmiy akkreditatsiyalar va nufuzli ta'lim tashkilotlari</p>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-5 gap-6 items-center">
+            <div class="bg-surface-ice rounded-xl p-5 flex items-center justify-center h-24 hover:shadow-md transition-all border border-border-subtle">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[32px] text-royal-blue-deep">school</span>
+                <div class="text-left leading-none">
+                  <span class="font-headline-sm text-base text-primary font-bold block">College</span>
+                  <span class="font-label-badge text-[11px] text-royal-blue-deep tracking-wider uppercase font-bold">Board</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-surface-ice rounded-xl p-5 flex items-center justify-center h-24 hover:shadow-md transition-all border border-border-subtle">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[34px] text-stem-accent-blue">verified_user</span>
+                <div class="text-left leading-none">
+                  <span class="font-headline-sm text-lg text-stem-accent-blue font-extrabold tracking-widest block">CIS</span>
+                  <span class="font-label-badge text-[9px] text-on-surface-variant font-bold">ACCREDITED</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-surface-ice rounded-xl p-5 flex items-center justify-center h-24 hover:shadow-md transition-all border border-border-subtle">
+              <div class="flex items-center gap-2">
+                <div class="w-7 h-7 rounded-full bg-stem-accent-blue text-on-primary flex items-center justify-center font-bold text-xs">P</div>
+                <div class="text-left leading-none">
+                  <span class="font-headline-sm text-sm text-primary font-bold block">Pearson</span>
+                  <span class="font-label-badge text-[10px] text-stem-accent-blue font-semibold">Edexcel</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-surface-ice rounded-xl p-5 flex items-center justify-center h-24 hover:shadow-md transition-all border border-border-subtle">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[30px] text-prestige-gold">workspace_premium</span>
+                <div class="text-left leading-none">
+                  <span class="font-label-md text-sm text-primary font-bold block">Al-Xorazmiy</span>
+                  <span class="font-label-badge text-[10px] text-gold-hover font-semibold">Olimpiada</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-surface-ice rounded-xl p-5 flex items-center justify-center h-24 col-span-2 md:col-span-1 hover:shadow-md transition-all border border-border-subtle">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[30px] text-emerald-600">psychiatry</span>
+                <div class="text-left leading-none">
+                  <span class="font-label-md text-sm text-primary font-bold block">Eco-Schools</span>
+                  <span class="font-label-badge text-[10px] text-emerald-600 font-semibold">Green Flag</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ADMISSION CALLOUT BANNER -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 w-full" id="qabul">
+        <div class="rounded-2xl bg-gradient-to-r from-royal-blue-deep via-primary to-midnight-navy p-8 sm:p-12 text-on-primary shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 border border-prestige-gold/30">
+          <div class="max-w-2xl">
+            <span class="font-label-badge text-xs sm:text-sm text-prestige-gold uppercase tracking-wider block mb-2 font-bold">Qabul 2025-2026</span>
+            <h3 class="font-headline-md text-2xl sm:text-4xl text-on-primary font-bold mb-3">Farzandingiz kelajagini Zarafshon IMI maktabida quring</h3>
+            <p class="font-body-md text-sm sm:text-base text-surface-container-high/80 leading-relaxed">
+              Maktabga qabul talablari, imtihon bosqichlari va ariza topshirish tartibi bilan to'liq tanishing.
+            </p>
+          </div>
+          <div class="flex flex-shrink-0 gap-4">
+            <button onclick="openAdmissionModal()" class="inline-flex items-center justify-center bg-prestige-gold hover:bg-gold-hover text-midnight-navy font-label-md text-base px-7 py-4 rounded-lg shadow-xl font-bold transition-all hover:scale-105">
+              <span>Qabul Ariza Topshirish</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ALOQA VA MANZIL (CONTACT SECTION) -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-20 w-full" id="contact">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <!-- Left Info -->
+          <div class="lg:col-span-5 flex flex-col justify-between">
+            <div>
+              <span class="font-label-badge text-xs sm:text-sm text-royal-blue-deep uppercase tracking-widest block mb-2 font-bold">Biz Bilan Bog'laning</span>
+              <h2 class="font-headline-lg text-3xl sm:text-4xl text-primary font-bold mb-6">Aloqa ma'lumotlari</h2>
+              <p class="font-body-md text-base text-on-surface-variant leading-relaxed mb-8">
+                Savollaringiz bormi? Qabul, akademik dasturlar hamda maktab hayoti bo'yicha biz bilan bog'laning.
+              </p>
+
+              <div class="space-y-6">
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-lg bg-surface-container text-royal-blue-deep flex items-center justify-center flex-shrink-0">
+                    <span class="material-symbols-outlined text-[22px]">location_on</span>
+                  </div>
+                  <div>
+                    <h4 class="font-label-md text-base font-bold text-primary">Manzil</h4>
+                    <p class="font-body-sm text-sm text-on-surface-variant">210200, O'zbekiston Respublikasi, Navoiy viloyati, Zarafshon shahri, Konchilar ko'chasi</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-lg bg-surface-container text-royal-blue-deep flex items-center justify-center flex-shrink-0">
+                    <span class="material-symbols-outlined text-[22px]">call</span>
+                  </div>
+                  <div>
+                    <h4 class="font-label-md text-base font-bold text-primary">Telefon</h4>
+                    <p class="font-body-sm text-sm text-on-surface-variant">+998 79 573 20 20</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-lg bg-surface-container text-royal-blue-deep flex items-center justify-center flex-shrink-0">
+                    <span class="material-symbols-outlined text-[22px]">mail</span>
+                  </div>
+                  <div>
+                    <h4 class="font-label-md text-base font-bold text-primary">Elektron Pochta</h4>
+                    <p class="font-body-sm text-sm text-on-surface-variant">info@zarafshonimi.uz</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Contact Form -->
+          <div class="lg:col-span-7 bg-surface-card p-8 sm:p-10 rounded-2xl border border-border-subtle shadow-xl">
+            <h3 class="font-headline-sm text-2xl font-bold text-primary mb-6">Xabar yo'llash</h3>
+            <form onsubmit="handleContactSubmit(event)" class="space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block font-label-sm text-sm font-semibold text-primary mb-2">Ism va Familiyangiz</label>
+                  <input type="text" required placeholder="Masalan: Anvar Karimov" class="w-full px-4 py-3 rounded-lg border border-border-subtle bg-surface-ice text-on-surface focus:outline-none focus:border-royal-blue-deep focus:ring-2 focus:ring-royal-blue-deep/20 transition-all"/>
+                </div>
+                <div>
+                  <label class="block font-label-sm text-sm font-semibold text-primary mb-2">Telefon raqamingiz</label>
+                  <input type="tel" required placeholder="+998 90 123 45 67" class="w-full px-4 py-3 rounded-lg border border-border-subtle bg-surface-ice text-on-surface focus:outline-none focus:border-royal-blue-deep focus:ring-2 focus:ring-royal-blue-deep/20 transition-all"/>
+                </div>
+              </div>
+
+              <div>
+                <label class="block font-label-sm text-sm font-semibold text-primary mb-2">Mavzu</label>
+                <select class="w-full px-4 py-3 rounded-lg border border-border-subtle bg-surface-ice text-on-surface focus:outline-none focus:border-royal-blue-deep focus:ring-2 focus:ring-royal-blue-deep/20 transition-all">
+                  <option>Qabul 2025 bo'yicha savol</option>
+                  <option>Akademik ta'lim va Cambridge dasturlari</option>
+                  <option>Matbuot xizmati va hamkorlik</option>
+                  <option>Boshqa savollar</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block font-label-sm text-sm font-semibold text-primary mb-2">Xabaringiz</label>
+                <textarea rows="4" required placeholder="Savolingizni atroflicha bayon qiling..." class="w-full px-4 py-3 rounded-lg border border-border-subtle bg-surface-ice text-on-surface focus:outline-none focus:border-royal-blue-deep focus:ring-2 focus:ring-royal-blue-deep/20 transition-all"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 bg-royal-blue-deep hover:bg-midnight-navy text-on-primary font-bold rounded-lg transition-all shadow-md flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[20px]">send</span>
+                <span>Xabarni Yuborish</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-tertiary text-on-tertiary pt-16 pb-8 border-t border-tertiary-container">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <div class="flex items-center gap-3 mb-5">
+            <img alt="Prezident Maktabi Gerbi" class="h-16 w-16 sm:h-20 sm:w-20 object-cover rounded-full drop-shadow-md" src="logo.png" onerror="this.src='https://namps.uz/assets/logo-DgE6UXMF.png'"/>
+            <span class="font-headline-sm text-lg text-on-tertiary font-bold">Zarafshon IMI</span>
+          </div>
+          <p class="font-body-sm text-sm text-on-tertiary-container leading-relaxed mb-6">
+            Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internati xalqaro Cambridge ta'lim standartlari hamda STEM integratsiyasi asosida yetakchilarni tarbiyalaydi.
+          </p>
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="px-3 py-1 bg-tertiary-container text-prestige-gold font-label-badge text-xs rounded font-bold">PIIMA</span>
+            <span class="px-3 py-1 bg-tertiary-container text-stem-accent-blue font-label-badge text-xs rounded font-bold">CAMBRIDGE</span>
+            <span class="px-3 py-1 bg-tertiary-container text-surface-container-high font-label-badge text-xs rounded font-bold">CIS ACCREDITED</span>
+          </div>
+        </div>
+
+        <div>
+          <span class="block font-label-md text-sm text-prestige-gold uppercase tracking-wider mb-5 font-bold">Akademik Bo'limlar</span>
+          <ul class="space-y-3 font-body-sm text-sm text-on-tertiary-container">
+            <li><a class="hover:text-on-tertiary transition-colors" href="#talim">Cambridge IGCSE & A-Level</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#talim">STEM laboratoriyalar majmuasi</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#results">Olimpiada natijalari</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#statistika">Xalqaro universitetlarga kirish</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#teachers">Xalqaro pedagogik tarkib</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <span class="block font-label-md text-sm text-prestige-gold uppercase tracking-wider mb-5 font-bold">Muhim Ma'lumotlar</span>
+          <ul class="space-y-3 font-body-sm text-sm text-on-tertiary-container">
+            <li><a class="hover:text-on-tertiary transition-colors" href="#qabul">Qabul tartibi va imtihonlar</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#statistika">Maktab statistikasi</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#news">So'nggi yangiliklar va e'lonlar</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#gallery">Foto va video arxiv</a></li>
+            <li><a class="hover:text-on-tertiary transition-colors" href="#about">Maktab nizomi va qadriyatlar</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <span class="block font-label-md text-sm text-prestige-gold uppercase tracking-wider mb-5 font-bold">Manzil & Aloqa</span>
+          <div class="space-y-3 font-body-sm text-sm text-on-tertiary-container">
+            <div class="flex items-start gap-2">
+              <span class="material-symbols-outlined text-[18px] text-prestige-gold mt-0.5">location_on</span>
+              <span>210200, O'zbekiston, Navoiy viloyati, Zarafshon shahri, Konchilar ko'chasi</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[18px] text-prestige-gold">call</span>
+              <span>+998 79 573 20 20</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[18px] text-prestige-gold">mail</span>
+              <span>info@zarafshonimi.uz</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[18px] text-prestige-gold">schedule</span>
+              <span>Dush - Shan: 08:30 - 18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-tertiary-container flex flex-col md:flex-row items-center justify-between font-body-sm text-xs sm:text-sm text-on-tertiary-container gap-4">
+        <div>© 2025 Zarafshon shahridagi Ixtisoslashtirilgan Maktab-Internati. Barcha huquqlar himoyalangan.</div>
+        <div class="flex items-center gap-6 font-label-sm">
+          <a class="hover:text-on-tertiary transition-colors" href="#" onclick="showToast('Maxfiylik siyosati rasmiy hujjati')">Maxfiylik siyosati</a>
+          <a class="hover:text-on-tertiary transition-colors" href="#" onclick="showToast('Foydalanish qoidalari')">Foydalanish qoidalari</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODALS & OVERLAYS -->
+
+  <!-- QABUL ADMISSION MODAL -->
+  <div id="admission-modal" class="fixed inset-0 z-50 hidden bg-midnight-navy/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-surface-card rounded-2xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-prestige-gold/40 relative overflow-hidden animate-fade-in">
+      <button onclick="closeAdmissionModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-ice hover:bg-surface-container text-primary flex items-center justify-center transition-colors">
+        <span class="material-symbols-outlined text-[20px]">close</span>
+      </button>
+
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-12 h-12 rounded-xl bg-royal-blue-deep text-prestige-gold flex items-center justify-center">
+          <span class="material-symbols-outlined text-[26px]">how_to_reg</span>
+        </div>
+        <div>
+          <h3 class="font-headline-sm text-2xl font-bold text-primary">Zarafshon IMI Qabul 2025</h3>
+          <p class="font-body-sm text-xs text-on-surface-variant">5-sinf uchun ariza topshirish va muvofiqlikni tekshirish portali</p>
+        </div>
+      </div>
+
+      <form onsubmit="handleAdmissionSubmit(event)" class="space-y-4">
+        <div>
+          <label class="block font-label-sm text-sm font-semibold text-primary mb-1">O'quvchining F.I.SH</label>
+          <input type="text" required placeholder="Masalan: Mahmudov Botirbek" class="w-full px-4 py-2.5 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep"/>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block font-label-sm text-sm font-semibold text-primary mb-1">Tug'ilgan yili</label>
+            <input type="date" required class="w-full px-4 py-2.5 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep"/>
+          </div>
+          <div>
+            <label class="block font-label-sm text-sm font-semibold text-primary mb-1">Hozirgi maktabi va sinfi</label>
+            <input type="text" required placeholder="4-sinf bitiruvchisi" class="w-full px-4 py-2.5 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep"/>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block font-label-sm text-sm font-semibold text-primary mb-1">Ota-onaning telefoni</label>
+            <input type="tel" required placeholder="+998 91 123 45 67" class="w-full px-4 py-2.5 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep"/>
+          </div>
+          <div>
+            <label class="block font-label-sm text-sm font-semibold text-primary mb-1">Shahar / Tuman</label>
+            <select class="w-full px-4 py-2.5 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep">
+              <option>Zarafshon shahri</option>
+              <option>Tomdi tumani</option>
+              <option>Uchquduq tumani</option>
+              <option>Navoiy shahri</option>
+              <option>Karmana tumani</option>
+              <option>Qiziltepa tumani</option>
+              <option>Nurota tumani</option>
+              <option>Xatirchi tumani</option>
+              <option>Konimex tumani</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="p-4 bg-gold-light/60 rounded-xl border border-prestige-gold/30 text-xs text-on-surface space-y-1">
+          <span class="font-bold block text-primary">Muhim eslatma:</span>
+          <p>4-sinfni a'lo baholar bilan yakunlayotgan nomzodlar qabul imtihoniga kiritiladi. Imtihonlar Cambridge Assessment standartlari bo'yicha o'tkaziladi.</p>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 bg-prestige-gold hover:bg-gold-hover text-midnight-navy font-bold rounded-lg transition-all shadow-md flex items-center justify-center gap-2">
+          <span class="material-symbols-outlined text-[20px]">send</span>
+          <span>Arizani Ro'yxatdan O'tkazish</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div id="search-modal" class="fixed inset-0 z-50 hidden bg-midnight-navy/80 backdrop-blur-md flex items-start justify-center pt-24 px-4">
+    <div class="bg-surface-card rounded-2xl max-w-xl w-full p-6 shadow-2xl border border-border-subtle">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="font-headline-sm text-lg font-bold text-primary">Saytdan qidirish</h3>
+        <button onclick="closeSearchModal()" class="text-on-surface-variant hover:text-primary">
+          <span class="material-symbols-outlined text-[24px]">close</span>
+        </button>
+      </div>
+      <div class="relative">
+        <span class="material-symbols-outlined absolute left-3 top-3.5 text-on-surface-variant text-[20px]">search</span>
+        <input type="text" id="search-input" onkeyup="handleSearch(this.value)" placeholder="Zarafshon IMI, Qabul, Cambridge, IELTS..." class="w-full pl-10 pr-4 py-3 rounded-lg border border-border-subtle bg-surface-ice text-sm focus:outline-none focus:border-royal-blue-deep"/>
+      </div>
+      <div id="search-results" class="mt-4 max-h-60 overflow-y-auto space-y-2 text-sm">
+        <p class="text-xs text-on-surface-variant">Kalit so'zni kiriting...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS MODAL -->
+  <div id="news-modal" class="fixed inset-0 z-50 hidden bg-midnight-navy/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-surface-card rounded-2xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-border-subtle relative">
+      <button onclick="closeNewsModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-ice hover:bg-surface-container text-primary flex items-center justify-center transition-colors">
+        <span class="material-symbols-outlined text-[20px]">close</span>
+      </button>
+      <h3 id="news-modal-title" class="font-headline-sm text-2xl font-bold text-primary mb-4 leading-tight"></h3>
+      <div id="news-modal-body" class="font-body-md text-sm sm:text-base text-on-surface-variant leading-relaxed space-y-3 mb-6"></div>
+      <button onclick="closeNewsModal()" class="px-6 py-2.5 bg-royal-blue-deep text-on-primary font-bold rounded-lg text-sm">Yopish</button>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Rasm" class="max-w-full max-h-[90vh] rounded-xl shadow-2xl object-contain"/>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden bg-midnight-navy text-prestige-gold px-5 py-3.5 rounded-xl shadow-2xl border border-prestige-gold/40 text-sm font-semibold flex items-center gap-3 animate-bounce">
+    <span class="material-symbols-outlined text-[20px]">info</span>
+    <span id="toast-text"></span>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // Language Toggle
+    function setLanguage(lang) {
+      document.querySelectorAll('#lang-uz, #lang-ru, #lang-en').forEach(btn => {
+        btn.className = 'text-surface-container-high hover:text-on-primary cursor-pointer transition-colors';
+      });
+      document.getElementById(`lang-${lang}`).className = 'text-prestige-gold font-bold cursor-pointer hover:scale-105 transition-transform';
+      
+      const langNames = { uz: "O'zbekcha", ru: "Русский", en: "English" };
+      showToast(`Til almashindi: ${langNames[lang]}`);
+    }
+
+    // Toast Notification
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastText = document.getElementById('toast-text');
+      toastText.textContent = message;
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3500);
+    }
+
+    // Mobile Drawer
+    function toggleMobileMenu() {
+      const drawer = document.getElementById('mobile-drawer');
+      const icon = document.getElementById('mobile-menu-icon');
+      if (drawer.classList.contains('hidden')) {
+        drawer.classList.remove('hidden');
+        icon.textContent = 'close';
+      } else {
+        drawer.classList.add('hidden');
+        icon.textContent = 'menu';
+      }
+    }
+
+    // Admission Modal
+    function openAdmissionModal() {
+      document.getElementById('admission-modal').classList.remove('hidden');
+    }
+    function closeAdmissionModal() {
+      document.getElementById('admission-modal').classList.add('hidden');
+    }
+    function handleAdmissionSubmit(e) {
+      e.preventDefault();
+      closeAdmissionModal();
+      showToast('Arizangiz muvaffaqiyatli qabul qilindi! Tez orada bog\'lanamiz.');
+    }
+
+    // Search Modal
+    function openSearchModal() {
+      document.getElementById('search-modal').classList.remove('hidden');
+      document.getElementById('search-input').focus();
+    }
+    function closeSearchModal() {
+      document.getElementById('search-modal').classList.add('hidden');
+    }
+    function handleSearch(query) {
+      const resultsDiv = document.getElementById('search-results');
+      if (!query.trim()) {
+        resultsDiv.innerHTML = '<p class="text-xs text-on-surface-variant">Kalit so\'zni kiriting...</p>';
+        return;
+      }
+      const items = [
+        { title: "Zarafshon IMI qabul 2025", link: "#qabul" },
+        { title: "Cambridge IGCSE va AS/A-Level dasturi", link: "#talim" },
+        { title: "IOI 2025 Xalqaro Informatika Olimpiadasi Bronza Medali", link: "#results" },
+        { title: "IELTS 8.5 Natijasi - Yorqinoy Maxamadaliyeva", link: "#news" },
+        { title: "FabLab & Robototexnika laboratoriyasi", link: "#talim" },
+        { title: "Xalqaro o'qituvchilar va pedagoglar tarkibi", link: "#teachers" }
+      ];
+      const filtered = items.filter(item => item.title.toLowerCase().includes(query.toLowerCase()));
+      if (filtered.length === 0) {
+        resultsDiv.innerHTML = '<p class="text-xs text-on-surface-variant">Hech narsa topilmadi.</p>';
+      } else {
+        resultsDiv.innerHTML = filtered.map(item => `
+          <a href="${item.link}" onclick="closeSearchModal()" class="block p-2 rounded hover:bg-surface-container font-medium text-primary">${item.title}</a>
+        `).join('');
+      }
+    }
+
+    // News Modal
+    function openNewsModal(title, body) {
+      document.getElementById('news-modal-title').textContent = title;
+      document.getElementById('news-modal-body').textContent = body;
+      document.getElementById('news-modal').classList.remove('hidden');
+    }
+    function closeNewsModal() {
+      document.getElementById('news-modal').classList.add('hidden');
+    }
+
+    // Lightbox Modal
+    function openLightbox(src) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-modal').classList.remove('hidden');
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox-modal').classList.add('hidden');
+    }
+
+    // Contact Form
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      showToast('Xabaringiz yuborildi! Tez orada javob beramiz.');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>

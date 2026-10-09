@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Text Path for circular text -->
+    <path id="emblemTextPath" d="M 54,250 A 196,196 0 1,1 446,250 A 196,196 0 1,1 54,250" />
+    
+    <style>
+      .emblem-title-text {
+        font-family: system-ui, -apple-system, 'Outfit', 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 26px;
+        fill: #FFFFFF;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="240" fill="none" stroke="#FFFFFF" stroke-width="4.5" />
+  
+  <!-- Text around circle -->
+  <text class="emblem-title-text">
+    <textPath href="#emblemTextPath" startOffset="50%" text-anchor="middle">
+      O'ZBEKISTON RESPUBLIKASI PREZIDENT MAKTABI
+    </textPath>
+  </text>
+  
+  <!-- 8-pointed Star at bottom of text circle -->
+  <g transform="translate(250, 460) scale(1.2)">
+    <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="#FFFFFF"/>
+    <polygon points="0,-10 3,-3 10,0 3,3 0,10 -3,3 -10,0 -3,-3" fill="#FFFFFF" transform="rotate(45)"/>
+  </g>
+
+  <!-- Mesh Outer Border Ring -->
+  <circle cx="250" cy="250" r="188" fill="none" stroke="#FFFFFF" stroke-width="4" />
+
+  <!-- GEOMETRIC STAR CONSTELLATION MESH NETWORK (Intersecting Arcs & Nodes) -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.5">
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(0 250 250)" />
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(30 250 250)" />
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(60 250 250)" />
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(90 250 250)" />
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(120 250 250)" />
+    <ellipse cx="250" cy="250" rx="188" ry="85" transform="rotate(150 250 250)" />
+  </g>
+
+  <!-- Constellation Nodes (White Dots) -->
+  <g fill="#FFFFFF">
+    <!-- Outer Node Ring (12 dots on outer circle) -->
+    <circle cx="250" cy="62" r="5.5" />
+    <circle cx="344" cy="87" r="5.5" />
+    <circle cx="413" cy="156" r="5.5" />
+    <circle cx="438" cy="250" r="5.5" />
+    <circle cx="413" cy="344" r="5.5" />
+    <circle cx="344" cy="413" r="5.5" />
+    <circle cx="250" cy="438" r="5.5" />
+    <circle cx="156" cy="413" r="5.5" />
+    <circle cx="87" cy="344" r="5.5" />
+    <circle cx="62" cy="250" r="5.5" />
+    <circle cx="87" cy="156" r="5.5" />
+    <circle cx="156" cy="87" r="5.5" />
+
+    <!-- Mid Node Ring (12 dots) -->
+    <circle cx="250" cy="115" r="5" />
+    <circle cx="317.5" cy="133" r="5" />
+    <circle cx="367" cy="182.5" r="5" />
+    <circle cx="385" cy="250" r="5" />
+    <circle cx="367" cy="317.5" r="5" />
+    <circle cx="317.5" cy="367" r="5" />
+    <circle cx="250" cy="385" r="5" />
+    <circle cx="182.5" cy="367" r="5" />
+    <circle cx="133" cy="317.5" r="5" />
+    <circle cx="115" cy="250" r="5" />
+    <circle cx="133" cy="182.5" r="5" />
+    <circle cx="182.5" cy="133" r="5" />
+
+    <!-- Inner Node Ring (12 dots) -->
+    <circle cx="250" cy="155" r="5" />
+    <circle cx="297.5" cy="168" r="5" />
+    <circle cx="332" cy="202.5" r="5" />
+    <circle cx="345" cy="250" r="5" />
+    <circle cx="332" cy="297.5" r="5" />
+    <circle cx="297.5" cy="332" r="5" />
+    <circle cx="250" cy="345" r="5" />
+    <circle cx="202.5" cy="332" r="5" />
+    <circle cx="168" cy="297.5" r="5" />
+    <circle cx="155" cy="250" r="5" />
+    <circle cx="168" cy="202.5" r="5" />
+    <circle cx="202.5" cy="168" r="5" />
+  </g>
+
+  <!-- Mesh Inner Boundary Ring -->
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#FFFFFF" stroke-width="4" />
+
+  <!-- CENTER EMBLEM: GLOBE AND OPEN BOOK -->
+  <g transform="translate(0, 10)">
+    <!-- GLOBE -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="3.5">
+      <!-- Globe Outer Boundary -->
+      <circle cx="250" cy="210" r="64" />
+      
+      <!-- Globe Latitude Lines -->
+      <line x1="186" y1="210" x2="314" y2="210" stroke-width="3.5" />
+      <ellipse cx="250" cy="210" rx="64" ry="40" />
+      <ellipse cx="250" cy="210" rx="64" ry="20" />
+      <line x1="198" y1="178" x2="302" y2="178" stroke-width="2.5" />
+      <line x1="198" y1="242" x2="302" y2="242" stroke-width="2.5" />
+      
+      <!-- Globe Longitude Lines -->
+      <line x1="250" y1="146" x2="250" y2="274" stroke-width="3.5" />
+      <ellipse cx="250" cy="210" rx="40" ry="64" />
+      <ellipse cx="250" cy="210" rx="20" ry="64" />
+    </g>
+
+    <!-- OPEN BOOK (Cradling bottom of Globe) -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Left Page Curves -->
+      <path d="M 250,296 Q 190,250 135,264 L 138,280 Q 190,270 250,308 Z" fill="#0B1B3D" />
+      <path d="M 250,308 Q 190,270 138,280 L 142,296 Q 190,288 250,320 Z" fill="#0B1B3D" />
+      
+      <!-- Right Page Curves -->
+      <path d="M 250,296 Q 310,250 365,264 L 362,280 Q 310,270 250,308 Z" fill="#0B1B3D" />
+      <path d="M 250,308 Q 310,270 362,280 L 358,296 Q 310,288 250,320 Z" fill="#0B1B3D" />
+      
+      <!-- Main Upper Book Spreads -->
+      <path d="M 250,288 C 210,245 160,252 135,258 C 170,278 220,284 250,296 C 280,284 330,278 365,258 C 340,252 290,245 250,288 Z" fill="#0B1B3D" stroke-width="3.8" />
+    </g>
+
+    <!-- Star at Book Spine Center -->
+    <g transform="translate(250, 312) scale(0.9)">
+      <polygon points="0,-8 2.5,-2.5 8,0 2.5,2.5 0,8 -2.5,2.5 -8,0 -2.5,-2.5" fill="#FFFFFF"/>
+      <polygon points="0,-8 2.5,-2.5 8,0 2.5,2.5 0,8 -2.5,2.5 -8,0 -2.5,-2.5" fill="#FFFFFF" transform="rotate(45)"/>
+    </g>
+  </g>
+</svg>
